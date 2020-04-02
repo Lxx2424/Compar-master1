@@ -1,0 +1,19 @@
+@import '_index';
+@import '_contact';
+@import '_account';
+@import '_wishlist';
+@import '_shop';
+
+
+
+
+body{
+    background: #FFFFFF !important; 
+    font-family: 'Rubik', sans-serif;
+    
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
