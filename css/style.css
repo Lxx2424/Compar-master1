@@ -613,13 +613,12 @@
 /*==Best Product  End==*/
 /*--Footer Start--*/
 .footer-area {
-  padding: 80px 0;
+  padding: 15px 0;
   background-color: #1B1D1F;
 }
 
 .footer-area .footer-top {
   border-bottom: 1px solid #323436;
-  padding-bottom: 30px;
 }
 
 .footer-area .footer-top .contact-widget {
@@ -657,7 +656,7 @@
 }
 
 .footer-area .footer-bottom {
-  padding: 30px 0;
+  padding: 12px 0;
 }
 
 .footer-area .footer-bottom .copyright {
