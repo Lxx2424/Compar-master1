@@ -597,8 +597,8 @@
     padding: 30px 30px;
   }
 }
-
 /*==Best Product  End==*/
+
 /*--Footer Start--*/
 .footer-area {
   padding: 15px 0;
@@ -632,7 +632,8 @@
           margin-bottom: 25px;
         }
       }
-      .contact-info-list{
+
+      .contact-info-list {
         margin: 0;
         padding: 0;
         list-style: none;
@@ -640,21 +641,43 @@
       }
     }
   }
-  .footer-bottom{
+  .widget-title {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 32px;
+    position: relative;
+  }
+  .widget .widget-title{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+  }
+.widget-menu p{    
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+  .footer-bottom {
     padding: 12px 0;
-    .copyright{
+
+    .copyright {
       margin: 0;
       color: rgba(255, 255, 255, 0.6);
-      
+
     }
-    .social-area{
+
+    .social-area {
       list-style: none;
       padding: 0;
       margin: 0;
       display: inline-flex;
-      li{
+
+      li {
         margin-right: 10px;
-        a{
+
+        a {
           border: 1px solid #4A4B4F;
           border-radius: 50%;
           height: 50px;
@@ -666,21 +689,25 @@
           font-size: 22px;
           text-decoration: none;
           color: white;
-          :hover{
+
+          :hover {
             border: 1px solid #fff;
             background: #fff;
           }
         }
       }
     }
-    .currency-area{
+
+    .currency-area {
       list-style: none;
       padding: 0;
       margin: 0;
       display: inline-flex;
-      li{
+
+      li {
         margin-right: 10px;
-        a{
+
+        a {
           text-decoration: none;
           outline: none;
           color: inherit;
@@ -688,21 +715,72 @@
       }
     }
   }
-}     
+}
+
 .contact-widget .contact-info-list li.single-info-item {
   position: relative;
   margin-bottom: 20px;
-  h4{
+
+  h4 {
     font-size: 16px;
     font-weight: 500;
     color: #fff;
     margin-bottom: 8px;
   }
 }
+
 .widget ul li:first-child {
   margin-top: 0px;
 }
+
 .contact-widget .contact_info_list li {
   display: block;
 }
 /*--Footer End--*/
+
+/*--Partners Strat--*/
+#partners{
+  .partners-gallery{
+    background-color: #f4f4f4;
+    h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-right: 2px solid #e4e4e4;
+    letter-spacing: 1px;
+    }
+  }
+  .partners-logo-list{
+    padding: 15px 0;
+    ul{
+      li{
+        display: inline-block;
+      }
+    }
+  }
+  .owl-theme .owl-nav.disabled+.owl-dots{
+    display: none;
+  }
+  .owl-stage{
+      width: 3584px;
+      transition: all 0.5s ease 0s;
+  }
+}
+/*--Partners End--*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
