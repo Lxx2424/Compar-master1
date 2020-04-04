@@ -95,17 +95,110 @@
                         cursor: pointer;
                         background: #fff;
                         border: 1px solid #2d2e30;
-                        border-radius: 2px; 
+                        border-radius: 2px;
                     }
-                    .star-rating{
+
+                    .star-rating {
                         display: inline-block;
                         padding: 0 0 10px 25px;
                         color: #A1A2A3;
-                        span{
+
+                        span {
                             font-size: 14px;
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .single-product-card {
+        border: 1px solid #ececec;
+        background: #fff;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .single-product-card-2 {
+        border-radius: 5px;
+
+        img {
+            border-radius: 5px 5px 0 0;
+        }
+
+        .product-card-details {
+            padding: 23px 20px 22px;
+
+            .chance {
+                position: absolute;
+                top: 15px;
+                right: 13px;
+                background: #ffb400;
+                height: 25px;
+                padding: 0 17px;
+                line-height: 25px;
+                color: #fff;
+                font-size: 14px;
+                border-radius: 10px 5px 10px 5px;
+            }::before{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 0;
+                height: 0;
+                border: none;
+                border-left: solid 5px white;
+                border-bottom: solid 20px transparent;
+                z-index: 1;
+                transition: 0.4s
+            }::after{
+                position: absolute;
+                content: "";
+                right: 0;
+                top: 5px;
+                width: 0;
+                height: 0;
+                border: none;
+                border-left: solid 5px transparent;
+                border-bottom: solid 20px white;
+                z-index: 1;
+                transition: 0.4s;
+            }
+
+            .categories {
+                font-size: 14px;
+                color: #A1A2A3;
+                margin-bottom: 9px;
+            }
+
+            .title {
+                font-size: 16px;
+                font-weight: bold;
+                color: #191919;
+                line-height: 1.3;
+                margin-bottom: 8px;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                outline: none;
+            }
+
+            .star-rating {
+                margin-bottom: 9px;
+
+                i {
+                    color: gold;
+                }
+            }
+
+            .shop-price {
+                color: #ffb400;
+                font-size: 20px;
+                font-weight: bold;
+                display: inline-block;
             }
         }
     }
