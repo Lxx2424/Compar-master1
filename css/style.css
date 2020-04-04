@@ -1067,7 +1067,7 @@
   background: #191919;
   color: #fff;
   border-radius: 5px 5px 0 0;
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 0;
   padding: 20px 27px 18px 20px;
   font-size: 16px;
@@ -1126,6 +1126,45 @@
   float: right;
   top: 47%;
   margin-top: 4px;
+}
+
+#shop-area .sidebar .single-widget .sidebar-rating {
+  background: #fff;
+  padding: 25px 20px 18px;
+  border-radius: 0 0 5px 5px;
+}
+
+#shop-area .sidebar .single-widget .sidebar-rating .sidebar-single-rating {
+  position: relative;
+}
+
+#shop-area .sidebar .single-widget .sidebar-rating .sidebar-single-rating input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+#shop-area .sidebar .single-widget .sidebar-rating .sidebar-single-rating .checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  height: 13px;
+  width: 13px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #2d2e30;
+  border-radius: 2px;
+}
+
+#shop-area .sidebar .single-widget .sidebar-rating .sidebar-single-rating .star-rating {
+  display: inline-block;
+  padding: 0 0 10px 25px;
+  color: #A1A2A3;
+}
+
+#shop-area .sidebar .single-widget .sidebar-rating .sidebar-single-rating .star-rating span {
+  font-size: 14px;
 }
 
 body {
