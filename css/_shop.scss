@@ -1,14 +1,74 @@
-// #products{
-//     padding: 80px 0;
-//     background-color: green;
-// }
-// #list-th .product-wraper{
-// border: 1px solid #ccc;
-// }
-// .category .product-wraper{
-//     padding: 0;
-//     text-align: center;
-//     margin-bottom: 30px;
-//     border-color: #eaeaea;
-//     margin-left: -1px;
-// }
+#shop-area {
+    background-color: #F4F4F4;
+    padding: 50px 0 100px;
+    border: 10px solid white;
+
+    .sidebar {
+        border-radius: 5px;
+
+        .sidebar-title {
+            background: #191919;
+            color: #fff;
+            border-radius: 5px 5px 0 0;
+            font-weight: 500;
+            margin-bottom: 0;
+            padding: 20px 27px 18px 20px;
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+
+            img {
+                margin-right: 20px;
+            }
+
+            i {
+                float: right;
+                top: 50%;
+                margin-top: 4px;
+            }
+        }
+
+        .single-widget {
+            margin-bottom: 30px;
+
+            .sidebar-categories {
+                background: #fff;
+                border-radius: 0 0 5px 5px;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    a {
+                        padding: 20px 24px 18px 53px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: var(--heading-color);
+                        border-bottom: 1px solid #f2f2f2;
+                        position: relative;
+                        display: block;
+                        transition: all 0.3s ease-in;
+                        text-decoration: none;
+
+                        img {
+                            position: absolute;
+                            left: 20px;
+                            top: 39%;
+                        }
+                        .icon-shop{
+                            position: absolute;
+                            left: 20px;
+                            top: 30%;
+                        }
+
+                        i {
+                            float: right;
+                            top: 47%;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
